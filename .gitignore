@@ -1,1 +1,6 @@
 .DS_Store
+.venv
+.vscode
+local.properties
+__pycache__
+output
