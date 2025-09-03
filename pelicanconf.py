@@ -132,9 +132,13 @@ TAG_CLOUD_MAX_ITEMS=25
 
 MD_INCLUDE_BASE_PATH = "sourcecode"
 
-GITALK_REPO_NAME = "gitalk_comments"
-GITALK_REPO_OWNER = "loaveaiinfo"
-GITALK_REPO_ADMIN = "loaveaiinfo"
+# GITALK_REPO_NAME = "gitalk_comments"
+# GITALK_REPO_OWNER = "loaveaiinfo"
+# GITALK_REPO_ADMIN = "loaveaiinfo"
+GISGUS_REPO_NAME = "loveaiinfo/loveaiinfo.github.io"
+GISGUS_REPO_ID = "MDEwOlJlcG9zaXRvcnkxODE5OTg4NTc="
+GISGUS_CATEGORY_NAME = "Announcements"
+GISGUS_CATEGORY_ID = "DIC_kwDOCtkVCc4Culyf"
 
 STATIC_PATHS = [
     'images',
