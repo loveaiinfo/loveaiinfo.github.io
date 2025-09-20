@@ -56,23 +56,24 @@ LINKS = (
 )
 
 # Social widget
-SOCIAL = (
-    ("E-mail", "envelope", "#"),
-    ("GitHub", "github", "#"),
-    ("Twitter", "twitter", "#"),
-    ("Google Plus", "google-plus", "#"),
-    ("Facebook", "facebook", "#"),
-    ("Stackoverflow", "stack-overflow", "#"),
-    ("GitTip", "gittip", "#"),
-    ("Linux User", "linux", "#"),
-    ("Feeds", "rss", "feeds.atom"),
-)
+# SOCIAL = (
+#     ("E-mail", "envelope", "#"),
+#     ("GitHub", "github", "#"),
+#     ("Twitter", "twitter", "#"),
+#     ("Google Plus", "google-plus", "#"),
+#     ("Facebook", "facebook", "#"),
+#     ("Stackoverflow", "stack-overflow", "#"),
+#     ("GitTip", "gittip", "#"),
+#     ("Linux User", "linux", "#"),
+#     ("Feeds", "rss", "feeds.atom"),
+# )
 
 DEFAULT_PAGINATION = 10
 
 I18N_TEMPLATES_LANG = 'en'
 
-THEME = "themes/pelican-bootstrap3"
+# THEME = "themes/pelican-bootstrap3"
+THEME = "themes/papyrus"
 JINJA_ENVIRONMENT = {
   'extensions': ['jinja2.ext.i18n', 'jinja2.ext.do']
 }
