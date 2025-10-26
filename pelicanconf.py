@@ -48,31 +48,11 @@ TAGS_URL = "tags"
 TAG_URL = 'tags/{slug}'
 TAG_SAVE_AS = 'tags/{slug}/index.html'
 
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-)
-
-# Social widget
-# SOCIAL = (
-#     ("E-mail", "envelope", "#"),
-#     ("GitHub", "github", "#"),
-#     ("Twitter", "twitter", "#"),
-#     ("Google Plus", "google-plus", "#"),
-#     ("Facebook", "facebook", "#"),
-#     ("Stackoverflow", "stack-overflow", "#"),
-#     ("GitTip", "gittip", "#"),
-#     ("Linux User", "linux", "#"),
-#     ("Feeds", "rss", "feeds.atom"),
-# )
 
 DEFAULT_PAGINATION = 10
 
 I18N_TEMPLATES_LANG = 'en'
 
-# THEME = "themes/pelican-bootstrap3"
 THEME = "themes/papyrus"
 JINJA_ENVIRONMENT = {
   'extensions': ['jinja2.ext.i18n', 'jinja2.ext.do']
@@ -85,57 +65,13 @@ SHOW_ARTICLE_CATEGORY = True
 FAVICON = "extra/favicon-32x32.png"
 TOUCHICON = "extra/apple-touch-icon.png"
 
-# css
-TYPOGRIFY = False
-CUSTOM_CSS = "extra/custom.css"
 FEED_ALL_ATOM = "feeds.atom"
 FEED_ALL_RSS = "feeds.rss"
 
-PYGMENTS_STYLE='monokai'
-BOOTSTRAP_THEME='readable'
-
-# navbar
-NAVBAR_ELEMENTS = ['menu-items', 'brand-dropdown']
-DISPLAY_PAGES_ON_MENU =False
-DISPLAY_CATEGORIES_ON_MENU = False
-SUMMARY_MAX_LENGTH = 64
-SUMMARY_MAX_PARAGRAPHS = 2
-SITE_LINKS = [
-    ('Home', ''),
-    ('Authors', 'authors'),
-    ('Archives', 'archives'),
-    ('Categories', 'categories'),
-    ('Tags', 'tags'),
-    ('RSS', 'feeds.rss'),
-]
-
 GOOGLE_ANALYTICS = "G-501XXQ1HHZ"
-
-# site banner
-SHOW_SITE_BANNER_IN = ['all']
-SITE_BANNER_ELEMENTS = ['logo', 'name', 'social']
-SITE_BANNER_BACKGROUND_COLOR = "#eeeeec; background-image: url('/images/background_banner.png'); background-repeat: no-repeat; background-size: cover; background-position: center center"
-SITELOGO = "images/logo.png"
-
-# sidebar
-SIDEBAR_ELEMENTS = ["condensed", "links"]
-SIDE_BRAND_ELEMENTS = ['logo', 'name', 'social']
-CONDENSED_SIDEBAR_ITEMS = ['categories', 'tagcloud', 'recent']
-
-DISPLAY_BREADCRUMBS = True
-DISPLAY_CATEGORY_IN_BREADCRUMBS = True
-
-BOOTSTRAP_FLUID = False
-
-TAG_CLOUD_STEPS = 4
-TAG_CLOUD_BADGE = True
-TAG_CLOUD_MAX_ITEMS=25
 
 MD_INCLUDE_BASE_PATH = "sourcecode"
 
-# GITALK_REPO_NAME = "gitalk_comments"
-# GITALK_REPO_OWNER = "loaveaiinfo"
-# GITALK_REPO_ADMIN = "loaveaiinfo"
 GISGUS_REPO_NAME = "loveaiinfo/loveaiinfo.github.io"
 GISGUS_REPO_ID = "MDEwOlJlcG9zaXRvcnkxODE5OTg4NTc="
 GISGUS_CATEGORY_NAME = "Announcements"
@@ -152,3 +88,7 @@ EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/app-ads.txt': {'path': 'app-ads.txt'},
 }
+
+SUBTITLE = "LOVEAI's BLOG"
+SUBTEXT = "I'm a drawer and author in the LOVEAI Blog."
+COPYRIGHT = "© 2025 LOVEAI. All rights reserved."
